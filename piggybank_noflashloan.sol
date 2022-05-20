@@ -12,7 +12,7 @@ contract PiggyBank is Ownable{
 
     uint256 public minBalanceToWithdraw;
     uint256 public balance;
-    bool public closeTimestamp;
+    uint256 public closeTimestamp;
     
     /**
     * @notice this constructor defines the token and the initial minium balance to withdraw this token.
